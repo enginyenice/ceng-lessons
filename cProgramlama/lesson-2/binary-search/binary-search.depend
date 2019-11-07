@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1573158147 source:/home/engin/yazilim/cProgramlama/lesson-2/binary-search/main.c
+	<stdio.h>
+	<stdlib.h>
+
