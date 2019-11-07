@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 void print_array(int arr[], int MAX);
 void insertion_sort(int arr[],int MAX)
 {
