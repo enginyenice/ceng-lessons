@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1573161390 source:/home/engin/yazilim/cProgramlama/lesson-2/insertion-sort/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
