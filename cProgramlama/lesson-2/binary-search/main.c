@@ -1,8 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-
-
-
 
 int binary_search(int arr[],int MAX,int search_key)
 {
