@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1573153110 source:/home/engin/yazilim/cProgramlama/lesson-2/pointer-example/main.c
+	<stdio.h>
+	<stdlib.h>
+
