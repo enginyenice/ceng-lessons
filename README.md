@@ -1,2 +1,2 @@
 # ceng-lessons
-#Codes shown in the lesson.
+# Programing language: C / Java
