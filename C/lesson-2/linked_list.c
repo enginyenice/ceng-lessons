@@ -64,6 +64,7 @@ void addToMid(int before,int value)
     }
 
 //    8->9->10
+
     addToIt = list->next;
     list->next = newNode;
     newNode->next = addToIt;
@@ -72,22 +73,29 @@ void addToMid(int before,int value)
 
 
 
-
 }
 void Push(int value)
 {
+
+    if(first == NULL)
+    {
+        addToEnd(value);
+    }
     int midStatus  = 0;
     struct node *list;
     struct node *temp;
     list = first;
+
+
     while(list!= NULL)
     {
-        if((value < list->next) && value > first->data && value < last->data )
+        if(value > first->data && value <last->data && value < list->data )
         {
+            temp = list;
             midStatus = 1;
-            temp = list->next;
+            addToMid(temp->data,value);
+            break;
         }
-
         if((value > last->data))
         {
             addToEnd(value);
@@ -99,12 +107,8 @@ void Push(int value)
             list = list->next;
 
     }
-    if(midStatus == 1)
-    {
-
-        addToMid(temp->data,value);
     }
-}
+
 void printList()
 {
     printf("\n");
@@ -120,14 +124,16 @@ void printList()
 
 int main()
 {
-    addToEnd(2);
-    addToEnd(5);
-    addToEnd(8);
-    addToEnd(10);
 
-    Push(9);
-    Push(1);
-    Push(11);
+Push(1);
+Push(11);
+Push(9);
+Push(6);
+Push(3);
+Push(4);
+Push(7);
+Push(7);
+
 
     printList();
 
