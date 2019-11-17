@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-/*
+/**
         Switch Case
     All days of the week
 */
