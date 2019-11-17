@@ -1,3 +1,3 @@
 
 It is an educational project. Contributors:
-Contact Engin directly
+Contact Engin Yenice directly
