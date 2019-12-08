@@ -3,19 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package NYP10Duyuru;
+package nyp10Duyuru;
 
 /**
  *
  * @author engin
  */
-interface Beta {
+interface Alfa {
     
-    void agac_dik();
+    void bina_yap();
     void setBoy();
     void setIsim(String Isim);
-    
-    
 }
-
 

@@ -3,23 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package NYP10Duyuru;
+package nyp10Duyuru;
 
 /**
  *
  * @author engin
  */
-class  BetaRobot implements Beta{
+
+class  AlfaRobot implements Alfa{
     private int boy;
     private String Isim;
-    BetaRobot(){
+    AlfaRobot(){
         this.boy = 360;
-        this.Isim = "BETA";
+        this.Isim = "ALFA";
     }
     
     @Override
-    public void agac_dik() {
-        System.out.println(this.Isim+ " Tarafindan -> Agac Dikildi");
+    public void bina_yap() {
+        System.out.println(this.Isim+ " Tarafindan -> Bina yapildi");
     }
 
     @Override
