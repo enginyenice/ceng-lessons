@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package nyp10Duyuru;
 
 /**
@@ -24,13 +19,19 @@ class  AlfaRobot implements Alfa{
     }
 
     @Override
-    public void setBoy() {
-        this.boy = 360;
+    public void setBoy(int boy) {
+        this.boy = boy;
     }
 
     @Override
     public void setIsim(String Isim) {
         this.Isim = Isim;
     }
+
+    @Override
+    public void bilgiler() {
+        System.out.println("Adim: "+this.Isim+ " Boyum: "+ this.boy+ "cm bina yaparim.");
+    }
+    
     
 }

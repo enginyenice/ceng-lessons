@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package nyp10Duyuru;
 
 /**
@@ -23,17 +18,19 @@ public class GamaRobot implements Alfa, Beta {
 
     @Override
     public void bina_yap() {
-        System.out.println(this.Isim+ " Tarafindan -> Bina Yapildi");
+        if(gorev == 1)
+            System.out.println(this.Isim+ " Tarafindan -> Bina Yapildi");
     }
 
     @Override
-    public void setBoy() {
-        this.boy = 200;
+    public void setBoy(int boy) {
+        this.boy = boy;
     }
 
     @Override
     public void agac_dik() {
-        System.out.println(this.Isim+ " Tarafindan -> Agac Dikildi");
+        if(gorev == 0)
+            System.out.println(this.Isim+ " Tarafindan -> Agac Dikildi");
     }
 
     public void calis() {
@@ -46,6 +43,7 @@ public class GamaRobot implements Alfa, Beta {
     }
 
     public void gorev_degistir() {
+        System.out.println("\n-----Gorev Degistirme Emri-----");
         if (gorev == 0) {
             gorev = 1;
             System.out.println(this.Isim+ "  Yeni gorevi bina yapmaktir.");
@@ -53,11 +51,16 @@ public class GamaRobot implements Alfa, Beta {
             gorev = 0;
             System.out.println(this.Isim+ "  Yeni gorevi agac dikmektir.");
         }
+        System.out.println("-------------------------------\n");
     }
 
     @Override
     public void setIsim(String Isim) {
         this.Isim = Isim;
+    }
+    @Override
+    public void bilgiler() {
+        System.out.println("Adim: "+this.Isim+ " Boyum: "+ this.boy+ "cm bina yaparim ve agac dikerim.");
     }
 
 }

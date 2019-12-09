@@ -12,20 +12,24 @@ package nyp10Duyuru;
 public class Main_Class {
 
     //Alfa: Bina yapar. Boyu 360 -- bina_yap
-    //Beta: Agac diker. Boyu 140 -- agac_dik    
-    //Gama: Bina yapar. Agac diker.  Boyu 200 default agac_dik ,, gorev_degistir ile gorev degisebilir. Calistir ile calisiyor
+    //Beta: Agac diker. Boyu 140 -- agac_dik      
+    /*Gama: Bina yapar. Agac diker.  
+            Boyu 200 default agac_dik ,, 
+            gorev_degistir ile gorev degisebilir. 
+            Calistir ile calisiyor
+    */
     public static void main(String[] args) {
         AlfaRobot alfaRobot = new AlfaRobot();
         BetaRobot betaRobot = new BetaRobot();
         GamaRobot gamaRobot = new GamaRobot();
-        
+        alfaRobot.bilgiler();
+        betaRobot.bilgiler();
+        gamaRobot.bilgiler();
+        System.out.println("-----------------------------");
         alfaRobot.bina_yap();
         gamaRobot.calis();
         betaRobot.agac_dik();
         gamaRobot.gorev_degistir();
-        gamaRobot.calis();
-        
-        
-        
+        gamaRobot.calis();     
     }
 }
