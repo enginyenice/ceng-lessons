@@ -31,5 +31,7 @@ public class Main_Class {
         betaRobot.agac_dik();
         gamaRobot.gorev_degistir();
         gamaRobot.calis();     
+        gamaRobot.gorev_degistir();
+        gamaRobot.calis();
     }
 }
