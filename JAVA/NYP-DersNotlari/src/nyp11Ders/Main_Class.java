@@ -5,17 +5,19 @@
  */
 package nyp11Ders;
 
+import java.io.IOException;
+
+
+
 /**
  *
  * @author engin
  */
 public class Main_Class {
 
-    /**
-     *
-     * @param args
-     */
-    public static void main(String[] args) {
+    
+
+    public static void main(String[] args) throws IOException {
         /*
                 try {
             
@@ -29,6 +31,8 @@ public class Main_Class {
         
         
         A a=new A(5,6);
+        A.dosyaYaz(" Bu bir denemedir...");
+        A.dosyadanOku();
         System.out.println(a.toString());
         
     }
