@@ -1,0 +1,73 @@
+Satir Sayisi: 1 Adet
+Kelime Sayisi: 3265Adet
+BH Kelime Sayisi: 145 Adet
+Bosluk Sayisi: 3264 Adet
+Rakam Sayisi: 36 Adet
+[l]->1056 Adet
+[o]->1392 Adet
+[r]->1056 Adet
+[e]->1824 Adet
+[m]->816 Adet
+[i]->2064 Adet
+[p]->528 Adet
+[s]->864 Adet
+[u]->1392 Adet
+[d]->912 Adet
+[t]->1536 Adet
+[a]->1392 Adet
+[,]->192 Adet
+[c]->768 Adet
+[n]->1152 Adet
+[g]->144 Adet
+[b]->144 Adet
+[q]->240 Adet
+[.]->192 Adet
+[v]->144 Adet
+[x]->144 Adet
+[h]->48 Adet
+[f]->144 Adet
+[8]->4 Adet
+[7]->3 Adet
+[6]->3 Adet
+[5]->7 Adet
+[4]->3 Adet
+[9]->1 Adet
+[1]->4 Adet
+[2]->6 Adet
+[3]->5 AdetSatir Sayisi: 1 Adet
+Kelime Sayisi: 3265Adet
+BH Kelime Sayisi: 145 Adet
+Bosluk Sayisi: 3264 Adet
+Rakam Sayisi: 36 Adet
+[l]->1056 Adet
+[o]->1392 Adet
+[r]->1056 Adet
+[e]->1824 Adet
+[m]->816 Adet
+[i]->2064 Adet
+[p]->528 Adet
+[s]->864 Adet
+[u]->1392 Adet
+[d]->912 Adet
+[t]->1536 Adet
+[a]->1392 Adet
+[,]->192 Adet
+[c]->768 Adet
+[n]->1152 Adet
+[g]->144 Adet
+[b]->144 Adet
+[q]->240 Adet
+[.]->192 Adet
+[v]->144 Adet
+[x]->144 Adet
+[h]->48 Adet
+[f]->144 Adet
+[8]->4 Adet
+[7]->3 Adet
+[6]->3 Adet
+[5]->7 Adet
+[4]->3 Adet
+[9]->1 Adet
+[1]->4 Adet
+[2]->6 Adet
+[3]->5 Adet
