@@ -1,0 +1,2 @@
+javac xxx.java //Complaile
+java  xxx // Start
