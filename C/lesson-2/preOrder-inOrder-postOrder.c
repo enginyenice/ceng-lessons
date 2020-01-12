@@ -6,7 +6,6 @@ struct Node *insert(struct Node*node,int key);
 struct Node
 {
     int data;
-    int height;
     struct Node *left;
     struct Node *right;
 };
@@ -17,7 +16,6 @@ struct Node *addLeaf(int key)
     node->left = NULL;
     node->right = NULL;
     node->data = key;
-    node->height = 1;
     return node;
 };
 
