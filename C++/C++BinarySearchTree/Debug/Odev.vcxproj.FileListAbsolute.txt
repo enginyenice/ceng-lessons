@@ -1,0 +1,2 @@
+C:\Users\engin\Desktop\Odev\Debug\Odev.exe
+C:\Users\engin\Desktop\Odev\Debug\Odev.pdb

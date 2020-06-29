@@ -1,0 +1,13 @@
+00000000
+00100000
+00000000
+00002000
+00000000
+00000000
+00000000
+00000000
+54 pozisyonundaki vezir 3 2 pozisyonundaki piyon tasini yiyebilmektedir.
+43 pozisyonundaki vezir 2 1 pozisyonundaki piyon tasini yiyebilmektedir.
+34 pozisyonundaki vezir 1 2 pozisyonundaki piyon tasini yiyebilmektedir.
+34 pozisyonundaki vezir 12 pozisyonundaki piyon tasini yiyebilmektedir.
+34 pozisyonundaki vezir tasi 12 pozisyonundaki piyon tasini yiyebilmektedir.
