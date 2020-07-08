@@ -1,5 +1,0 @@
-﻿  Header.cpp
-  Odev.cpp
-  Kod Üretiliyor...
-C:\Users\engin\Desktop\Odev\Header.h(149): warning C4715: 'Islemler::ogrNoVarMi': tüm denetim yolları değer döndürmez
-  Odev.vcxproj -> C:\Users\engin\Desktop\Odev\Debug\Odev.exe
